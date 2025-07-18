@@ -14,7 +14,7 @@
     box-sizing: border-box;
 }
 
-.course-title {
+header span {
     display: block;
     text-align: center;
     width: 100%;
