@@ -221,7 +221,7 @@ footer {
 }
 
 .modification {
-    color: #306661;
+    color: var(--primary-color);
 }
 
 
