@@ -1,0 +1,213 @@
+:root {
+    --primary-color: #343E3D; 
+    --secondary-color: #AEDCC0 ;
+    --accent1-color: #7BD389 ; 
+    --accent2-color: #38E4AE ; 
+    --accent3-color: white ; 
+    --heading-font: "Michroma", sans-serif;
+    --body-font: "Roboto", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.course-title {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-family: var(--heading-font);
+    font-size: 1.7rem;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.main-nav {
+    background-color: var(--primary-color);
+    padding: 0.3rem;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.main-nav li {
+    margin: 0.5rem;
+    flex: 1;
+    text-align: center;
+}
+
+.main-nav a {
+    color: var(--accent3-color);
+    text-decoration: none;
+    font-family: var(--body-font);
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+}
+
+.main-nav a:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+body {
+    font-family: var(--body-font);
+    line-height: 1.6;
+    color: var(--primary-color);
+    background-color: var(--accent3-color);
+}
+
+main {
+    max-width: 100%;
+    margin: 1rem 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+main h1 {
+    font-family: var(--heading-font);
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+}
+
+.card {
+    border: var(--primary-color) 2px solid;
+    border-radius: 10px;
+}
+
+.card ul {
+    padding: 0.5rem;
+    list-style: none;
+}
+
+.heading {
+    font-family: var(--heading-font);
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin: 0;
+    width: 100%;   
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.card p {
+    flex: 2;
+    padding: 1rem 1.5rem;
+    margin: 5px;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 1rem;
+}
+
+.separate {
+    flex:1;
+}
+
+.profile {
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 300px;
+    min-height: 300px;
+    border-radius: 10px;
+    flex: 2;
+    margin-right: 1.5rem;
+}
+
+.location-h2 {
+    font-family: var(--body-font);
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-top: 1rem;
+    text-decoration: underline;
+}
+
+.location-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 2rem;
+}
+
+.location-container img {
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    flex: 1;
+}
+
+.location-container p {
+    flex: 2;
+}
+
+.country-image {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tools {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card ul {
+    padding: 0.5rem;
+    list-style: none;
+    align-items: center;
+}
+
+.card ul li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    color: var(--primary-color);
+}
+
+.card a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.card a:hover {
+    color: #306661;
+    text-decoration: underline;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    width: auto;
+}
+
+
+
+
+
+
