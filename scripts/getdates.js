@@ -1,7 +1,7 @@
-const year = document.getElementById("#currentYear");
-const short = document.querySelector("#lastModified");
+const year = document.getElementById("currentYear");
+const short = document.getElementById("lastModified");
 
 const currentYear = new Date().getFullYear();
 
 year.textContent = currentYear;
-short.innerHTML = document.lastModified;
+short.textContent = document.lastModified;
