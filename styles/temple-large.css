@@ -37,12 +37,13 @@ header h1 {
 
 nav a {
     color: var(--accent3-color);
+    width: 100px;
 }
 
 nav a:hover {
     background-color: var(--secondary-color);
     color: var(--accent1-color);
-    width: 100%;
+    width: 100px;
 }
 
 .navigation li {
