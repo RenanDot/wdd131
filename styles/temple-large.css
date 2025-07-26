@@ -1,21 +1,5 @@
 @media screen and (min-width: 768px){
 
-    :root {
-        --primary-color: #4d141a; 
-        --secondary-color: #B7999C;
-        --accent1-color: #071013; 
-        --accent2-color: #AAAAAA; 
-        --accent3-color: #dfe0e2; 
-        --heading-font: "Michroma", sans-serif;
-        --body-font: "Roboto", sans-serif;
-    }
-
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
     header h1 {
         font-family: var(--heading-font);
         color: var(--accent3-color);
@@ -70,11 +54,6 @@
     }
 
     .copyright {
-        color: var(--accent3-color);
         font-size: 1.1rem;
-    }
-
-    .modification {
-        color: var(--accent3-color);
     }
 }
