@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px){
+@media screen and (min-width: 540px){
 
     header h1 {
         text-align: left;
@@ -7,7 +7,7 @@
     }
 
     #menu {
-        display: non;
+        display: none;
     }
 
     .navigation {
