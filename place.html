@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brazil</title>
+    <title>Brazil My Place</title>
     <meta name="description" content="Page dedicated to explore and learn about Brazil, its culture, geography, and attractions. South America country known for its vibrant culture, diverse ecosystems, and famous landmarks.">
     <meta name="author" content="Renan Daniel de Campos">
 
@@ -13,9 +13,10 @@
 
     <!-- Stylesheets here -->
     <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
 
     <!-- Fonts here -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
@@ -26,9 +27,9 @@
 
     <main>
         <picture>
-            <source media="(min-width: 800px)" srcset="images/brazil-large.jpg">
+            <source media="(min-width: 800px)" srcset="images/brazil-large.webp">
             <source media="(min-width: 500px)" srcset="images/brazil-medium.jpg">
-            <img src="images/brazil-small.jpg" alt="Beautiful landscape of Brazil" class="responsive-image">
+            <img src="images/brazil-small.webp" alt="Beautiful landscape of Brazil" class="responsive-image">
         </picture>
 
         <section class="Data">
@@ -43,7 +44,7 @@
             <p><strong>Internet TLD: </strong>.br</p>
         </section>
         <section class="weather">
-            <h2>Weather</h2>
+            <h2 class="after">Weather</h2>
 
             <p><strong>Temperature: </strong><span id="temperature"></span></p>
             <p><strong>Conditions: </strong><span id="condition"></span></p>
