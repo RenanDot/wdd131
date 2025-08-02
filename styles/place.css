@@ -21,3 +21,9 @@
     --heading-font: "Gravitas One", serif;
     --body-font: "Roboto", sans-serif;
 }
+
+.hero img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
