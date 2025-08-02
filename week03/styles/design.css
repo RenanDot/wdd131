@@ -41,8 +41,10 @@ article p {
 }
 
 footer {
-	margin-top: 1rem;
-	border-top: 1px solid rgba(0, 0, 0, 0.1);
-	font-size: smaller;
-	text-align: left;
+    background-color: var(--primary-color);
+    color: var(--accent3-color);
+    text-align: center;
+    padding: 1rem;
+    font-family: var(--heading-font);
+    font-size: 10px;
 }
