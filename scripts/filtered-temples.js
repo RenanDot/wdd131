@@ -124,7 +124,7 @@ home.addEventListener('click', () => {
 old.addEventListener('click', () => {
   header1.textContent = "Old Temples";
   templeGrid.innerHTML = "";
-  const oldTemples = temples.filter(temple => new Date(temple.dedicated) < new Date('2000-01-01'));
+  const oldTemples = temples.filter(temple => new Date(temple.dedicated) < new Date('1900-01-01'));
   oldTemples.forEach(temple => {
     templeGrid.innerHTML += layoutImages(temple);
   });
