@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A collection of beautiful temple photos from around the world. using a device responsive design. LDS temple photos are displayed in a grid layout, with each temple's name as a caption.">
+    <meta name="author" content="Renan Daniel de Campos">
+    <title>Temple Photo Album</title>
+
+    <script src="scripts/filtered-temples.js" defer></script>
+
+    <!-- importing the fonts to the project -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- CSS conection -->
+    <link rel="stylesheet" href="styles/filtered-temples.css"> 
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+</head>
+<body>
+    <header>
+        <h1>Temple Photo Album</h1>
+
+        <a id="menu" href="#"></a>
+
+        <nav>
+            <ul class="navigation" id="navigation">
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="#" id="old">Old</a></li>
+                <li><a href="#" id="new">New</a></li>
+                <li><a href="#" id="large">Large</a></li>
+                <li><a href="#" id="small">Small</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <h2 id="header1">Home</h2>
+
+        <div class="grid" id="templeGrid"></div>
+    </main>
+
+    <footer>
+        <p class="copyright">&copy; <span id="currentYear"></span> - Renan Daniel de Campos - São Paulo, Brazil</p>
+        <p class="modification">Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
