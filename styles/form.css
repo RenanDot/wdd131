@@ -1,0 +1,42 @@
+/*-------- general layout --------*/
+::root {
+    --primary-color: #590D22;
+    --secondary-color: #FFCCD5;
+    --ascent1-color: #A4133C;
+    --ascent2-color: #FF4D6D;
+    --ascent3-color: #FF8FA3;
+    --white-color: #FFF0F3;
+    --header-font: "Mozilla Headline", sans-serif;
+    --body-font: "Roboto", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 1fr;
+    font-family: var(--body-font);
+}
+
+/*-------- header layout --------*/
+header {
+    background-color: var(--primary-color);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: var(--header-font);
+    color: var(--white-color);
+    font-size: 2rem;
+}
+
+
+/*-------- form layout --------*/
+
+/*-------- footer layout --------*/
