@@ -1,8 +1,23 @@
 const products = [
   {
+    id: "jj-2022",
+    name: "cable harness",
+    averagerating: 4.2
+  },
+  {
     id: "fc-1888",
     name: "flux capacitor",
     averagerating: 4.5
+  },
+  {
+    id: "jj-2001",
+    name: "high voltage reactor",
+    averagerating: 4.8
+  },
+  {
+    id: "ac-2000",
+    name: "low voltage reactor",
+    averagerating: 3.9
   },
   {
     id: "fc-2050",
@@ -13,11 +28,6 @@ const products = [
     id: "fs-1987",
     name: "time circuits",
     averagerating: 3.5
-  },
-  {
-    id: "ac-2000",
-    name: "low voltage reactor",
-    averagerating: 3.9
   },
   {
     id: "jj-1969",
