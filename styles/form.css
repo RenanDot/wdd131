@@ -142,6 +142,11 @@ main h1 {
     margin: 5rem;
 }
 
+.form2 {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 300px;
+}
 /*-------- footer layout --------*/
 footer {
     background-color: var(--primary-color);
