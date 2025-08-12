@@ -26,12 +26,31 @@ const products = [
   }
 ];
 
-const select = document.getElementById("product");
+const select = document.querySelector("select");
 
 products.forEach(product => {
     const option = document.createElement("option");
-    option.value = product.name;
+    option.value = product.id;
     option.id = product.id;
-    option.textContent = product.name;
+    option.textContent = capitalizeWords(product.name);
     select.appendChild(option);
 });
+
+function capitalizeWords(str) {
+  return str
+    .split(" ")
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}
+
+let reviewCount = localStorage.getItem("reviewCount");
+
+reviewCount = reviewCount ? parseInt(reviewCount) + 1: 1;
+
+localStorage.setItem("reviewCount", reviewCount);
+
+const spanCount = document.getElementById("review-counter");
+
+if (spanCount) {
+  spanCount.textContent = reviewCount;
+}

@@ -18,7 +18,8 @@
 
 body {
     display: grid;
-    grid-template-rows: 1fr;
+	height: 100vh;
+	grid-template-rows: auto 1fr auto;
     font-family: var(--body-font);
 }
 
@@ -131,6 +132,14 @@ input[type="radio"] {
 
 .text {
     margin-top: 1.5rem;
+}
+
+main h1 {
+    font-family: var(--header-font);
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 2rem;
+    margin: 5rem;
 }
 
 /*-------- footer layout --------*/
