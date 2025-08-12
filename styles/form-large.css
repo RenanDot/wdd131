@@ -1,0 +1,20 @@
+@media screen and (min-width: 540px){
+    fieldset {
+        max-width: 900px;
+    }
+    
+    footer {
+        font-size: 2rem;
+        padding: 2rem;
+    }
+
+    footer p {
+        margin:1rem;
+    }
+
+    .modification {
+        font-size: 1.3rem;
+        color: var(--accent1-color);
+        font-weight: bold;
+    }
+}
