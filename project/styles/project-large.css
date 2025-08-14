@@ -1,0 +1,88 @@
+@media (min-width: 540px) {
+    /* header large */
+    header {
+        grid-template-columns: 1.5fr 3fr 1.5fr;
+    }
+
+    header h1 {
+        display: block;
+        font-family: var(--heading-font);
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: center;
+        margin: 0;
+    }
+
+    /* main large */
+    .team-member {
+        max-width: 500px;
+    }
+
+    .team-member img {
+        width: 300px;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .team-member h3 {
+        font-family: var(--heading-font);
+        font-size: 2rem;
+    }
+
+    .team-member p {
+        padding: 0 2rem;
+    }
+
+    .checkbox-group {
+        grid-template-columns: 1fr 1fr;
+    }
+    /* footer large */
+    footer {
+        display: grid;
+        grid-template-columns: 4fr 0.5fr;
+        padding: 1rem 5rem;
+    }
+
+    footer p {
+        font-size: 1.5rem;
+    }
+
+    .socialmedia {
+        align-self: center;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        flex-direction: row;
+    }
+
+    .main-nav {
+        grid-column: auto;
+    }
+
+    .main-nav a {
+        color: var(--accent3-color);
+        width: 100px;
+    }
+
+    .main-nav a:hover {
+        background-color: var(--ascent3-color);
+        color: var(--ascent2-color);
+        width: 100px;
+    }
+
+    .navigation li {
+        display: flex;
+    }
+
+    .navigation a {
+        display: block;
+        text-align: center;
+        flex: 1 1 100%;
+        padding: 1rem;
+    }
+
+}
