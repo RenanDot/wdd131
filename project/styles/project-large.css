@@ -1,4 +1,4 @@
-@media (min-width: 540px) {
+@media screen and (min-width: 540px) {
     /* header large */
     header {
         grid-template-columns: 1.5fr 3fr 1.5fr;
