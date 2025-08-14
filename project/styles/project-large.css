@@ -18,6 +18,10 @@
         max-width: 500px;
     }
 
+    .team {
+        grid-template-columns: 1fr 1fr;
+    }
+
     .team-member img {
         width: 300px;
         height: auto;
